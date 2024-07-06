@@ -41,3 +41,60 @@ Instructions & Descriptions:
 9. To log into admin, use the email `<your_admin_username>@fake_so.com>`
 
 9. Ctrl C out of both npm start and nodemon server.js processes to kill website
+
+
+
+Contributions: 
+
+InjuSmol: 
+
+    loginform.js
+    logouticon.js
+    newanswerpage.js
+    newquestionpage.js
+    questionmainpage.js
+    questionpreview.js
+    registerform.js
+    searchbar.js
+    searchresults.js
+    sidebar.js
+    tagpreview.js
+    tagspage.js
+    viewquestion.js
+    welcomepage.js
+    server.js
+    App.css
+    App.js
+    answers.js
+    comments.js
+    questions.js
+    tags.js
+    users.js
+    init.js
+    UML 
+
+Zachary Cytryn:
+
+    adminpage.js
+    fakestackoverflow.js
+    loginform.js
+    newanswerpage.js
+    newcommentpage.js
+    newquestionpage.js
+    profilepage.js
+    questionmainpage.js
+    questionpreview.js
+    registerform.js
+    sidebar.js
+    viewquestion.js
+    welcomepage.js
+    App.css
+    App.js
+    server.js
+    answers.js
+    comments.js
+    questions.js
+    tags.js
+    users.js
+    init.js
+
