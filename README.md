@@ -1,50 +1,65 @@
-Instructions & Descriptions: 
+## Instructions: Running the Fake StackOverflow Web Application
 
-1. For the server install all the necessary framework. Run npm install in client and server folders, as well as the project folder.
-    Requirements:
-    $ npm install react
-    $ npm install express
-    $ npm install axios
-    $ npm install mongoose
-    $ npm install bcrypt
-    $ npm install nodemon //
-    $ npm install connect-mongo
-    $ npm install express-session //
-    $ npm install cors
-    $ npm install react-icons
-    $ npm install react-scripts
-    $ npm install react-router-dom
+**A. GENERAL BACKGROUND:**
+The Fake StackOverflow web application is a simulated platform resembling the popular Stack Overflow website, where users can ask and answer questions related to programming and technology. The application comprises both a frontend built using React and a backend implemented with Node.js and MongoDB. React is used for the frontend interface, while Node.js serves as the backend server, handling data storage and retrieval using MongoDB as the database.
 
-2. Have mongoDB pre-installed on your computer (installed with brew in my case)
+**Salient Features:**
+- Frontend built with React framework.
+- Backend server powered by Node.js with Express framework.
+- Data storage and retrieval managed by MongoDB.
+- User authentication and password hashing implemented for security.
+- Axios library used for client-server communication.
+- CORS middleware enabled for seamless client-server interaction during development.
 
-3. Start mongodb using mongod command ( on my M1 Sonoma laptop I have to do '$ sudo brew services start mongodb-community@7.0')
+**B. INSTRUCTIONS:**
 
-4. Initialize the database and create an admin user:
-    1. cd to /server
-    2. Run npm install
-    3. Enter in terminal: `node init.js <admin-username> <admin-password>`
-    4. Ctrl C when initialize is logged
+1. **Preparation:**
+   - Ensure Node.js and npm (Node Package Manager) are installed on your system.
+   - Install MongoDB and start a local instance. Refer to the official MongoDB documentation for installation instructions.
+   - Clone the Fake StackOverflow repository.
 
-5. start server:
-    1. cd to /server
-    2. Enter in terminal: nodemon ./server.js 
+2. **Setting Up the Server:**
+   - Navigate to the `server` directory of the cloned repository.
+   - Install necessary dependencies by running:
+     ```
+     $ npm install express axios mongoose bcrypt nodemon connect-mongo express-session cors
+     ```
+   - Start the MongoDB server with the command:
+     ```
+     $ mongod
+     ```
+   - Initialize the backend server by running:
+     ```
+     $ nodemon server/server.js
+     ```
 
-6. split terminal, cd to the client folder and start react application:
-    1. cd to /client
-    2. Run npm install
-    3. Enter in terminal: npm start
+3. **Starting the Client Application:**
+   - Navigate to the `client` directory of the cloned repository.
+   - Install React dependencies by running:
+     ```
+     $ npm install react axios
+     ```
+   - Start the React application with the command:
+     ```
+     $ npm start
+     ```
 
-7. You can use mongosh to navigate through the fake_so database
+4. **Accessing the Application:**
+   - Once both the server and client are running, open your web browser.
+   - Access the Fake StackOverflow application at `http://localhost:8000`.
 
-8. You can stop mongoDB using '$ sudo brew services stop mongodb-community@7.0' or refer to [Starting and stopping mongoDB](align-items:%2520center%253B) for other ways to do so.
+5. **Exploring the Application:**
+   - Use the interface to browse questions, ask new questions, and provide answers.
+   - User authentication features may be available based on the implementation.
+   - Explore various functionalities and interact with the application as desired.
 
-9. To log into admin, use the email `<your_admin_username>@fake_so.com>`
+**C. SPECIAL NOTICES:**
+- Ensure that MongoDB is properly installed and running before starting the server.
+- Use caution with sensitive operations, such as modifying the database schema or running scripts.
+- CORS middleware is enabled for development purposes and should be disabled in production environments for security reasons
 
-9. Ctrl C out of both npm start and nodemon server.js processes to kill website
 
-
-
-Contributions: 
+**Contributions:** 
 
 InjuSmol: 
 
