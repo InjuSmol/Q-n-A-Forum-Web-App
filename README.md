@@ -1,4 +1,4 @@
-## Instructions: Running the Fake StackOverflow Web Application
+### Instructions: Running the StackOverflow Replica Web Application
 
 **A. GENERAL BACKGROUND:**
 The Fake StackOverflow web application is a simulated platform resembling the popular Stack Overflow website, where users can ask and answer questions related to programming and technology. The application comprises both a frontend built using React and a backend implemented with Node.js and MongoDB. React is used for the frontend interface, while Node.js serves as the backend server, handling data storage and retrieval using MongoDB as the database.
@@ -16,7 +16,7 @@ The Fake StackOverflow web application is a simulated platform resembling the po
 1. **Preparation:**
    - Ensure Node.js and npm (Node Package Manager) are installed on your system.
    - Install MongoDB and start a local instance. Refer to the official MongoDB documentation for installation instructions.
-   - Clone the Fake StackOverflow repository.
+   - Clone the StackOverflow Replica repository.
 
 2. **Setting Up the Server:**
    - Navigate to the `server` directory of the cloned repository.
