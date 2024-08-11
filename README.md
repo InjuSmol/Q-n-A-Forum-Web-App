@@ -3,7 +3,7 @@
 **A. GENERAL BACKGROUND:**
 The StackOverflow Replica web application is a simulated platform resembling the popular Stack Overflow website, where users can ask and answer questions related to programming and technology. The application comprises both a frontend built using React and a backend implemented with Node.js and MongoDB. React is used for the frontend interface, while Node.js serves as the backend server, handling data storage and retrieval using MongoDB as the database.
 
-**Salient Features:**
+**Features:**
 - Frontend built with React framework.
 - Backend server powered by Node.js with Express framework.
 - Data storage and retrieval managed by MongoDB.
