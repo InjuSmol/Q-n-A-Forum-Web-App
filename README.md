@@ -59,57 +59,13 @@ The StackOverflow Replica web application is a simulated platform resembling the
 - CORS middleware is enabled for development purposes and should be disabled in production environments for security reasons
 
 
-**Contributions:** 
+**Contributors:** 
 
-InjuSmol: 
+InjuSmol
 
-    loginform.js
-    logouticon.js
-    newanswerpage.js
-    newquestionpage.js
-    questionmainpage.js
-    questionpreview.js
-    registerform.js
-    searchbar.js
-    searchresults.js
-    sidebar.js
-    tagpreview.js
-    tagspage.js
-    viewquestion.js
-    welcomepage.js
-    server.js
-    App.css
-    App.js
-    answers.js
-    comments.js
-    questions.js
-    tags.js
-    users.js
-    init.js
-    UML 
+   
 
-Zachary Cytryn:
+Zachary Cytryn
 
-    adminpage.js
-    fakestackoverflow.js
-    loginform.js
-    newanswerpage.js
-    newcommentpage.js
-    newquestionpage.js
-    profilepage.js
-    questionmainpage.js
-    questionpreview.js
-    registerform.js
-    sidebar.js
-    viewquestion.js
-    welcomepage.js
-    App.css
-    App.js
-    server.js
-    answers.js
-    comments.js
-    questions.js
-    tags.js
-    users.js
-    init.js
+  
 
